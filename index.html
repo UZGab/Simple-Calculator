@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" class="input-color" id="expression" readonly>
+    <div class="first-row">
+        <button id="a" onclick="AddNumber('7')">7</button>
+        <button id="b" onclick="AddNumber('8')">8</button>
+        <button id="c" onclick="AddNumber('9')">9</button>
+        <button id="d" onclick="Operators('+')">+</button>
+    </div>
+    <div class="second-row">
+        <button id="e" onclick="AddNumber('4')">4</button>
+        <button id="f" onclick="AddNumber('5')">5</button>
+        <button id="g" onclick="AddNumber('6')">6</button>
+        <button id="h" onclick="Operators('-')">-</button>
+    </div>
+    <div class="third-row">
+        <button id="i" onclick="AddNumber('1')">1</button>
+        <button id="j" onclick="AddNumber('2')">2</button>
+        <button id="k" onclick="AddNumber('3')">3</button>
+        <button id="l" onclick="Operators('*')">*</button>
+    </div>
+    <div class="fourth-row">
+        <button id="m" onclick="ClearItAllUp()">C</button>
+        <button id="n" onclick="AddNumber('0')">0</button>
+        <button id="o" onclick="EvaluateItNa()">=</button>
+        <button id="p" onclick="Operators('/')">/</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

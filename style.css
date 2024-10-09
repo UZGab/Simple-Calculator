@@ -1,0 +1,73 @@
+input {
+    position: fixed;
+    top: 0%;
+    bottom: 80%;
+    left: 0%;
+    right: 0%;
+    padding: 20px;
+    text-align: end;
+    font-size: 47.5px;
+    padding: 0px 40px;
+}
+
+.input-color {
+    background-color: rgb(20, 20, 20);
+    color: rgb(240, 240, 240);
+    border: 0px solid rgb(91, 91, 91);
+    border-bottom-width: 0.01em;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+div > button {
+    border: 0.01em solid rgb(91, 91, 91);
+    background-color: rgb(40, 40, 40);
+    color: rgb(240, 240, 240);
+    cursor: pointer;
+    font-size: 30px;
+    transition: all 0.18s;
+}
+
+button:hover {
+    background-color: rgb(240, 240, 240);
+    color: rgb(40, 40, 40);
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+.first-row {
+    position: fixed;
+    top: 20%;
+    bottom: 60%;
+    left: 0%;
+    right: 0%;
+}
+
+.second-row {
+    position: fixed;
+    top: 40%;
+    bottom: 40%;
+    left: 0%;
+    right: 0%;
+}
+
+.third-row {
+    position: fixed;
+    top: 60%;
+    bottom: 20%;
+    left: 0%;
+    right: 0%;
+}
+
+.fourth-row {
+    position: fixed;
+    top: 80%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
